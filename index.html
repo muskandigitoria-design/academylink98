@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing page</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#fff;color:#111;text-align:center;min-height:100vh;display:flex;flex-direction:column;justify-content:space-between;padding:20px 15px;}
+h1{color:#0077ff;font-size:22px;margin-top:35px;text-transform:uppercase;}
+p{font-size:15px;margin:8px 0;}
+.timer{font-size:18px;margin-top:10px;font-weight:bold;color:#ff6600;}
+.profile{display:flex;justify-content:center;margin:18px 0;}
+.profile img{width:160px;height:160px;border-radius:50%;object-fit:cover;border:3px solid #0077ff;}
+.view-btn{display:inline-block;padding:12px 28px;background:linear-gradient(45deg,#0077ff,#00c6ff);color:#fff;border-radius:30px;font-weight:600;text-decoration:none;margin-top:10px;}
+h2{color:#0077ff;margin-top:8px;font-size:18px;}
+.disclaimer{background:#f7f7f7;color:#555;font-size:12px;padding:8px;}
+.footer-links{font-size:13px;display:flex;justify-content:center;gap:6px;padding:6px;background:#f7f7f7;}
+.footer-links a{color:#0077ff;text-decoration:none;}
+</style>
+</head>
+<body>
+
+<main>
+<h1>HURAIRA TRADER</h1>
+<p>💰Knowledge Is Your Strongest Trade.
+ 🎯</p>
+<div class="timer"><span id="countdown">5</span> SECONDS</div>
+
+<div class="profile">
+<img src="https://oneononeexperts.site/image/huraar.jpg">
+</div>
+
+<h2>78,908 Subscribers</h2>
+<p>✅ Turning Market Moves into Opportunities</p>
+
+<a href="https://t.me/+FU6oNgJR7gE4YjE9" class="view-btn">JOIN NOW FOR FREE</a>
+</main>
+
+<section class="disclaimer">
+<strong>Disclaimer:</strong> Educational & informational purpose only. Trading involves risk.
+</section>
+
+<div class="footer-links">
+<a href="https://t.me/+FU6oNgJR7gE4YjE9">Privacy Policy</a> |
+<a href="https://t.me/+FU6oNgJR7gE4YjE9">Contact Us</a>
+</div>
+
+<script>
+let c=5;
+setInterval(()=>{document.getElementById("countdown").innerText=c;c--;},1000);
+</script>
+
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1195066532729448');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1195066532729448&ev=PageView&noscript=1"/></noscript>
+
+</body>
+</html>
